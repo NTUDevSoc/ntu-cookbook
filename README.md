@@ -25,5 +25,4 @@ The easiest way to access this is through our *github pages* website: https://co
 
 If you'd like to keep these websites locally accessible, you have a few options; A webpage can be printed by pressing *CTRL+P* on your browser, or you can download the individual recipes by clicking the *Download ZIP* option in the github repository, like so;
 
-
-<!-- Will paste image through github's markdown editor. -->
+![Instructions](https://user-images.githubusercontent.com/46407321/111044195-fb118400-843e-11eb-9cd1-48c1dbb416df.PNG)
