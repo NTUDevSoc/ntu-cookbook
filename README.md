@@ -15,7 +15,7 @@ If you're reading this document, then it's (somewhat!) safe to assume that you'r
 4. Begin working on your new recipe by editing the template.    
    - Remember to place any images or other media into the assets folder and refer to them within your HTML page's code.
 5. Push the changes to the remote branch (`git push -u https://github.com/NTUDevSoc/ntu-cookbook [branch-name]`)
-6. Create a pull request on github requesting for your branch to be merged with the `new-recipes` repository, where it will be reviewed and integrated into the main website.#
+6. Create a pull request on github requesting for your branch to be merged with the `new-recipes` repository, where it will be reviewed and integrated into the main website.
 
 If you're not technically inclined, you can still contribute by writing your recipe into a form at `PUT FORM DOMAIN HERE` - we will be able to take it from there and implement it into the site.
 
