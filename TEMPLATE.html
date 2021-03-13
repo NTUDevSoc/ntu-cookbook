@@ -1,41 +1,104 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            NTU Student Cookbook HTML Template
-        </title>
+        <title>NTU Student Cookbook HTML Template</title>
+        <link rel="stylesheet" href="CSS/StyleSheet.css">
+        <!-- IMPORTANT:
+
+            Please don't override the style sheet with inline CSS;
+            it has been placed here in order to keep website design
+            consistent.
+
+            If you feel that a change should be made to the style sheet itself,
+            please open an issue within the github repository itself
+            (https://github.com/NTUDevSoc/ntu-cookbook/issues). -->
     </head>
     <body>
         <h1>The recipe name should be in H1 format.</h1>
-            <p>You can maybe put a little introductory paragraph here. It should always be separate from any important information such as allergen, vegan/vegetarian options, or otherwise.</p>
-            <p>Typically, you might include details relating to the little things in creating the dish. For example;</p>
+            <!-- You can maybe put a little introductory paragraph here. 
+                It should always be seperate from any important information such as allergen, vegan/vegetarian options, or otherwise.
+                Typically, you might include details relating to the little things in creating the dish. For example; -->
+
             <p><i>Quality of the ingredients matters here. Oregano can be of store brand, but is better if you create it yourself.</i></p>
-            <p>Remember that you are free to reference other existing recipes where possible; the idea is that this ends up being a closely-connected ecosystem of recipes from all places.</p>
+            
+            <!-- Remember that you are free to reference other existing recipes in the repository with the <a> tag; 
+                the idea is that this ends up being a closely-connected ecosystem of recipes from all places.
+
+                Optionally, you can also specify some details about the dish itself, such as preparation time,
+                cooking time and number of servings. The most concise way to do this is as follows: -->
+
+            <ul>
+                <li>Preparation time: <b>15 min</b></li>
+                <li>Cooking time: <b>~25 min</b></li>
+                <li>Servings: <b>5</b></li>
+            </ul>
+
         <h2>Sections should be in H2 format, and follow this order:</h2>
         <h2>Important Details:</h2>
-            <p><i>Place information about allergens, vegan/vegetarian compatibility and/or cultural/religious notices: (for example: contains pork) here. Some examples have been listed below:</i></p>
+
+            <!-- Place information about allergens, vegan/vegetarian compatibility and/or 
+                cultural/religious notices: (for example: contains pork) here. 
+                Some examples have been listed below: -->
+
             <ul>
                 <li>Vegan/Vegetarian: <b>Neither/Vegan/Vegetarian</b></li>
                 <li>Potential Allergens: <b>Nuts/Milk/Dairy/etc</b></li>
-                <li>Kosher: <b>Y/N</b></li>
+                <li>Kosher: <b>Yes/No</b></li>
             </ul>
         </ul>
+
         <h2>Ingredients</h2>
+            <!-- Pretty self-explanatory; list ingredients here. They should be unordered (<ul>).
+                For consistency's sake, aim to use the following abbreviations where possible:
+                
+                tablespoon(s) -> tbsp.
+                teaspoon(s) -> tsp.
+                pound(s) -> lb(s).
+                ounce(s) -> oz.
+                gram(s) -> g
+
+                For denominations such as size (i.e. large, )
+                Write fractions in the format &fracxy, where x is the numerator and y the denominator.
+                for example, 1/2 would be %frac12 - this is a nice way of formatting things and visual
+                consistency is always a good thing. 
+                
+                Optional ingredients can be simply stated with (optional).-->
             <ul>
-                <li>Pasta, 2 tbps.</li>
-                <li>A tankard of oregano</li>
+                <li>Pasta, 2 tbsps.</li>
+
+                <li>&frac12 a tankard of oregano</li> 
+
                 <li>One i̼̖̦͕͚̖͍̪ͥ͢i͔̦̩̙ͩ̾͟j̺̻͇͙̺̖͚̟͆̀ͩ͡q̥͕̐̽̐̔̀ŕ̢̪̻̳̹̰̳̠̠g͔̖̣̙̱̮̜̎̋͢i̮̻̜̪̪͗̏͗͜j̴͚̭͚͙͔͖̟̽u͛̿̈́̃҉̬̟̙̣a̻̟̰̜̦̘̚͜b̸͚͙̥̱͖̝̲̃̐̇̈n̲̗͖̦̣͖͔̠͒́f͖̭̼̘͔͛ͣ̒͊̕v̖̻̗̟͔͖̲̞̄̒̏̕u̦̙̱̗̙͒ͬ͝ͅî͈̼ͬ͑ͮ̀j̡͈͉͖̟̳̲̯̖ͮh̃̃͏̬̮̣̫ṇ̢̹̥ͧ̾̂ of Octogarf (optional)</li>
             </ul>
         <h2>Directions</h2>
+            <!-- -->
             <ol>
-                <li>Create lasanga using the pasta and oregano.</li>
+                <li>Create lasanga using the pasta and oregano.<sub><a href="#reference1">1</a></sub></li>
+                <!-- This is an example of referring to another part of the page using the # sign, as mentioned in the 'References' section. -->
                 <li>Lie self upon sacrifical altar at 9am on a Monday for maximum efficacy.</li>
+
                 <li>B̗̖̣̝͔̜̝͆́ͅĒ̻̮̍̂̕Cͨ̎̾ͪ͏̟̹̯͍͉͇͍͎O̴̥̟͂̉M̪̝̒̏̍̇̀ͅȨ̥͇̎͋̉ ̧̼̞͉̞͚̭ͫ͊͆͗O̎҉̤͇̙̺͈͙͕̣N̸͎̮̘̟̣͎̲ͥ͂̊E̴̗̦̯͉̩̅ ͓̥̥̆̚͜W͓̠͉̥̲̼̭͋̇̃͡I̛̯̺ͦT̖̦̗͇͉̥̣͓̈́͛̌̕H̝̻͚̣̅̂͠ ̨̤̟̳͉̠ͬÖ̵͚̜́̊C̵̞̘̘͍͉̹̫͒ͧ͗̋Ṭ̶̲̤͙̬ͫ̍͊O͚̼̊̔̀G͕̯̗̋̍͒̎̀Å̤̟̹̙̗͍ͧ͢R͓͔̭͈̐͋͗̀͝F͈̬̥̺̻̰͖̓͌͝</li>
             </ol>
         <h2>References</h2>
+            
             <p>If you've referred to/transcribed any resources from other websites/creators/etc, cite them here under the following format in order of use:</p>
+            <!-- You CAN forgo this section in favor of simply using <a> on text in the recipe itself, 
+                but doing it this way appears neat and allows readers to easily collate information. 
+                If you do it this way, make sure to use the <sub> tag to number your references in subscript where they occur.
+
+                When numbering your references, you can also use the <a> tag on the number itself to refer to
+                another part of the HTML document itself - to do it here, simply use the 'id' tag on part of 
+                your reference and use #<id> in an <a> section linked to the subscripted number. An example has been mentioned in the
+                'Directions' section above, and the below reference is given the id 'reference1'. -->
             <ol>
-                <li><a href="https://www.bbcgoodfood.com/recipes/lasagne">Lasanga recipe - BBC Good Food</a></li>
+                <li><a href="https://www.bbcgoodfood.com/recipes/lasagne" id="reference1">Lasanga recipe - BBC Good Food</a></li>
             </ol>
+        
+        <h2>Contributors</h2>
+            <p>Here, we list contributors to the writing of this document. It's optional, but some of you might want to credit yourselves or others.</p>
+            <ul>
+                <li>Written by Octogarf</li>
+                <li>Original recipe by BBC Good Food.</li>
+            </ul>
     </body>
 </html>
