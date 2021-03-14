@@ -1,14 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>NTU Student Cookbook</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/StyleSheet.css">
+
+        <!-- Icons -->
+        <script src="https://kit.fontawesome.com/f7a97ee3aa.js" crossorigin="anonymous"></script>
+
+         <!-- Website Favicon -->
+        <link rel = "shortcut icon" type = "image/png" href = "Assets/Logo.png">
+
+        <!-- Logo Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+
+        <!-- Page Title -->
+        <title>NTU Cookbook</title>
     </head>
+
     <body>
-        <h1>Welcome to the NTU Student Cookbook!</h1>
-        <h2>Introduction</h2>
-        <p>This website is intended to be a collaborative project between students at NTU that aims to hold various recipes, whether they're family recipes, cultural dishes or otherwise - all are welcome!</p>
-        <h3>How do I add a recipe to this website?</h3>
-        <p>You can submit a recipe to be added through <a href="">this form</a> or create a commit request through the website's <a href="https://github.com/NTUDevSoc/ntu-cookbook">github repository</a>. You can also open an issue on that repository if you have a recipe you would like someone else to put up for you.</p>
-        <p>Github commits should follow the <a href="https://github.com/NTUDevSoc/ntu-cookbook/blob/main/TEMPLATE.html">HTML template</a> listed in the repository itself.</p>
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="Assets/Logo.png" width="50" height="50" class="d-inline-block" alt="">
+                <b class = navbar-title>NTU Cookbook</b>
+            </a>
+        </nav>
+
+        <!-- Content -->
+        <div class = "container mt-4">
+            <div class = "row text-center">
+                <div class = "col-md">
+                    <h1>Welcome to the NTU Student Cookbook!</h1>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-md">
+                    <img src="Assets/banner.gif" class = "rounded img-thumbnail" alt="Picture of an omelette.">
+                </div>
+            </div>
+
+            <div class = "row my-4">
+                <div class = "col-md-6">
+                    <h2>Introduction</h2>
+                    <p>This website is intended to be a collaborative project between students at NTU that aims to hold various recipes, whether they're family recipes, cultural dishes or otherwise - all are welcome!</p>        
+                </div>
+                <div class = "col-md-6">
+                    <h3>How do I add a recipe to this website?</h3>
+                    <p>You can submit a recipe to be added through <a href = "" target = "_blank">this form</a> or create a commit request through the website's <a href = "https://github.com/NTUDevSoc/ntu-cookbook" target = "_blank">github repository</a>. You can also open an issue on that repository if you have a recipe you would like someone else to put up for you.</p>
+                    <p>Github commits should follow the <a href = "https://github.com/NTUDevSoc/ntu-cookbook/blob/main/TEMPLATE.html" target = "_blank">HTML template</a> listed in the repository itself.</p>
+                </div>
+            </div>
+            
+            <hr>
+            <div class = "row my-4">
+                <div class = "col-md">
+                    <div class = "row"><h2>Recipes Available:</h2></div>
+                    <div class = "row">
+                        <button type = "button" class = "btn btn-dark mx-2"><a href = "recipes/omelette/omelette.html">Omelette</a></button>
+                        <button type = "button" class = "btn btn-dark mx-2"><a href = "#">Recipe</a></button>
+                        <button type = "button" class = "btn btn-dark mx-2"><a href = "#">Recipe</a></button>
+                        <button type = "button" class = "btn btn-dark mx-2"><a href = "#">Recipe</a></button>
+                        <button type = "button" class = "btn btn-dark mx-2"><a href = "#">Recipe</a></button>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- DO NOT TOUCH -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="Javascript.js"></script>
     </body>
 </html>
