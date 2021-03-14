@@ -2,3 +2,9 @@
 .navbar-title {
     font-size: 30px;
 }
+
+/* Primarily for index page buttons */
+.btn a {
+    color: white;
+    text-decoration: none;
+}
