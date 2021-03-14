@@ -5,7 +5,7 @@ The purpose of this project and repo is to compile various cooking recipes, meth
 
 ### Interested in Contributing?
 
-If you're using github, make sure to check ![CONTRIBUTING.md](https://github.com/NTUDevSoc/ntu-cookbook/CONTRIBUTING.md).
+If you're using github, make sure to check ![CONTRIBUTING.md](https://github.com/NTUDevSoc/ntu-cookbook/blob/main/CONTRIBUTING.md).
 
 If you're not technically inclined, you can still contribute by writing your recipe into a form at `PUT FORM DOMAIN HERE` - we will be able to take it from there and implement it into the site.
 
