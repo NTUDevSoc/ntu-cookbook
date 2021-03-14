@@ -1,59 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>NTU Student Cookbook - Omelette</title>
-        <link rel="stylesheet" href="CSS/StyleSheet.css">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="../../CSS/StyleSheet.css">
+
+        <!-- Icons -->
+        <script src="https://kit.fontawesome.com/f7a97ee3aa.js" crossorigin="anonymous"></script>
+
+         <!-- Website Favicon -->
+        <link rel = "shortcut icon" type = "image/png" href = "">
+
+        <!-- Logo Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+
+        <!-- Page Title -->
+        <title>Omelette Recipe</title>
     </head>
+
     <body>
-        <h1>Omelette</h1>
-            <img src="assets/Omelette.JPG" alt="Picture of an omelette." height="50%" width="50%">
-            <ul>
-                <li>Preparation time: <b>5 min</b></li>
-                <li>Cooking time: <b>~5 min</b></li>
-                <li>Servings: <b>Serves 1</b></li>
-            </ul>
+        <!-- Navbar -->
+        <!-- Image and text -->
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../Assets/Logo.png" width="50" height="50" class="d-inline-block" alt="">
+                <b class = navbar-title>NTU Cookbook</b>
+            </a>
+        </nav>
 
-        <h2>Important Details:</h2>
-            <ul>
-                <li>Vegan/Vegetarian: <b>Vegetarian</b></li>
-                <li>Potential Allergens: <b>Egg</b></li>
-                <li>Gluten-free: <b>Yes</b></li>
-            </ul>
-        </ul>
+        <!-- Content -->
+        <div class = "container my-4 content">
 
-        <h2>Ingredients</h2>
-            <ul>
-                <li>3 eggs</li>
+            <!-- Recipe Title -->
+            <div class = "row text-center">
+                <div class = "col-md">
+                    <h1>Omelette Recipe</h1>
+                </div>
+            </div>
 
-                <li>1 tsp. sunflower oil</li> 
-                <p><b>OR</b></p>
-                <li>1 tsp. butter</li>
-            </ul>
-        <h2>Directions</h2>
-            <ol>
-                <li>Crack the eggs and pour the yolks into a bowl or jug. Beat until viscous.</li>
-                <li>Heat oil/butter in a frying pan over a medium-low heat, coating the surface.</li>
-                <ul>
-                    <li>If using butter, heat until it has melted and foamed.</li>
-                </ul>
-                <li>Pour egg mixture into pan; tilt to cover surface completely.</li>
-                <ul>
-                    <li>Egg mixture will begin to solidify; drag hardening sections into center of pan using spatula.</li>
-                </ul>
-                <li>Repeat step 3 until egg has completely set.</li>
-                <li>(Optional) fill omelette with any desired toppings, such as cheese, ham or herbs.</li>
-                <li>Fold omelette in half, slide onto plate and serve.</li>
-            </ol>
-        <h2>References</h2>
-            <ol>
-                <li><a href="https://www.bbcgoodfood.com/recipes/basic-omelette" id="reference1">Basic omelette recipe - BBC Good Food</a></li>
-                <li><a href="https://commons.wikimedia.org/wiki/File:Omelet.JPG">Omelette image - used under CCA 3.0 licence.</a></li>
-            </ol>
-        
-        <h2>Contributors</h2>
-            <ul>
-                <li>Written by Jordan Foster</li>
-                <li>Recipe by BBC Good Food used as reference, along with personal experience.</li>
-            </ul>
+            <!-- Recipe Image -->
+            <div class = "row">
+                <div class = "col-md">
+                    <img src="Images/Omelette.JPG" class = "rounded img-thumbnail" alt="Picture of an omelette.">
+                </div>
+            </div>
+
+            <!-- Recipe Content -->
+            <div class = "row mx-3 my-3">
+                <!-- Recipe Details -->
+                <div class = "col-md-6">
+
+                    <!-- Main Details -->
+                    <div class = "row">
+                        <div class = "col">
+                            <h2>Details:</h2>
+                            <ul>
+                                <li>Preparation time: <b>5 min</b></li>
+                                <li>Cooking time: <b>~5 min</b></li>
+                                <li>Servings: <b>Serves 1</b></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Dietary Details -->
+                    <div class = "row my-2">
+                        <div class = "col-md">
+                            <h2>Dietary Details:</h2>
+                            <ul>
+                                <li>Vegan/Vegetarian: <b>Vegetarian</b></li>
+                                <li>Potential Allergens: <b>Egg</b></li>
+                                <li>Gluten-free: <b>Yes</b></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Ingredients -->
+                    <div class = "row my-2">
+                        <div class = "col-md">
+                            <h2>Ingredients</h2>
+                                <ul>
+                                    <li>3 eggs</li>
+                                    <li>1 tsp. sunflower oil <b>OR</b> 1 tsp. butter</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe Directions -->
+                <div class = "col-md-6">
+                    <h2>Directions</h2>
+                        <ol>
+                        <li>Crack the eggs and pour the yolks into a bowl or jug. Beat until viscous.</li>
+                        <li>Heat oil/butter in a frying pan over a medium-low heat, coating the surface.</li>
+                        <ul>
+                            <li>If using butter, heat until it has melted and foamed.</li>
+                        </ul>
+                        <li>Pour egg mixture into pan; tilt to cover surface completely.</li>
+                        <ul>
+                            <li>Egg mixture will begin to solidify; drag hardening sections into center of pan using spatula.</li>
+                        </ul>
+                        <li>Repeat step 3 until egg has completely set.</li>
+                        <li>(Optional) fill omelette with any desired toppings, such as cheese, ham or herbs.</li>
+                        <li>Fold omelette in half, slide onto plate and serve.</li>
+                        </ol>
+                </div>
+            </div>
+
+            <hr> 
+
+            <!-- Other Details -->
+            <div class = "row mx-3 my-2">
+
+                <!-- References -->
+                <div class = "col-md-6">
+                    <h2>References</h2>
+                        <ol>
+                            <li><a href="https://www.bbcgoodfood.com/recipes/basic-omelette">Basic omelette recipe - BBC Good Food</a></li>
+                            <li><a href="https://commons.wikimedia.org/wiki/File:Omelet.JPG">Omelette image - used under CCA 3.0 licence.</a></li>
+                        </ol>
+                </div>
+
+                <!-- Contributors -->
+                <div class = "col-md-6">
+                    <h2>Contributors</h2>
+                        <ul>
+                            <li>Written by Jordan Foster</li>
+                            <li>Recipe by BBC Good Food used as reference, along with personal experience.</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- DO NOT TOUCH -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="Javascript.js"></script>
     </body>
 </html>

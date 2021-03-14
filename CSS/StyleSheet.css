@@ -1,0 +1,27 @@
+/* Navbar */
+.navbar-title {
+    font-size: 30px;
+}
+
+/* Primarily for index page buttons */
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Custom background */
+body {
+    background-image: url("../Assets/BG.gif");
+    background-size:cover;
+}
+
+.content {
+    background-color: rgb(241, 240, 240);
+    padding: 20px;
+    box-shadow: 5px 5px 5px #5f5f5f;
+}
+
+/* Remove padding from images */
+.img-thumbnail {
+    padding: 0;
+}

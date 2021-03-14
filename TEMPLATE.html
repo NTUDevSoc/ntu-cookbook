@@ -1,104 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>NTU Student Cookbook HTML Template</title>
-        <link rel="stylesheet" href="CSS/StyleSheet.css">
-        <!-- IMPORTANT:
-
+        <!-- 
+        IMPORTANT:
             Please don't override the style sheet with inline CSS;
             it has been placed here in order to keep website design
             consistent.
-
             If you feel that a change should be made to the style sheet itself,
             please open an issue within the github repository itself
-            (https://github.com/NTUDevSoc/ntu-cookbook/issues). -->
+            (https://github.com/NTUDevSoc/ntu-cookbook/issues).
+
+        NOTE:
+            This template isn't going to look great on its own until it's in the appropriate files with
+            everything linked together ... if you do experience any issues please do let us know so we can help you out! :)
+        -->
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="../../CSS/StyleSheet.css">
+
+        <!-- Icons -->
+        <script src="https://kit.fontawesome.com/f7a97ee3aa.js" crossorigin="anonymous"></script>
+
+         <!-- Website Favicon -->
+        <link rel = "shortcut icon" type = "image/png" href = "">
+
+        <!-- Logo Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+
+        <!-- Page Title -->
+        <!-- Put the name of your Recipe HERE -->
+        <title>Recipe NAME</title>
     </head>
+
     <body>
-        <h1>The recipe name should be in H1 format.</h1>
-            <!-- You can maybe put a little introductory paragraph here. 
-                It should always be seperate from any important information such as allergen, vegan/vegetarian options, or otherwise.
-                Typically, you might include details relating to the little things in creating the dish. For example; -->
+        <!-- Navbar -->
+        <!-- Image and text -->
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../Assets/Logo.png" width="50" height="50" class="d-inline-block" alt="">
+                <b class = navbar-title>NTU Cookbook</b>
+            </a>
+        </nav>
 
-            <p><i>Quality of the ingredients matters here. Oregano can be of store brand, but is better if you create it yourself.</i></p>
-            
-            <!-- Remember that you are free to reference other existing recipes in the repository with the <a> tag; 
-                the idea is that this ends up being a closely-connected ecosystem of recipes from all places.
+        <!-- Content -->
+        <div class = "container my-4 content">
 
-                Optionally, you can also specify some details about the dish itself, such as preparation time,
-                cooking time and number of servings. The most concise way to do this is as follows: -->
+            <!-- Recipe Title -->
+            <div class = "row text-center">
+                <div class = "col-md">
+                    <!-- Put the name of your Recipe HERE -->
+                    <h1>Recipe NAME</h1>
+                </div>
+            </div>
 
-            <ul>
-                <li>Preparation time: <b>15 min</b></li>
-                <li>Cooking time: <b>~25 min</b></li>
-                <li>Servings: <b>5</b></li>
-            </ul>
+            <!-- Recipe Image -->
+            <div class = "row">
+                <div class = "col-md">
+                    <!--This is where your image goes, ensure that within your recipe folder, you have got a file called Images
+                    The next step is to simple put "Images/ImageName.png" into the src = section and give it a meaningful alt
+                    description too! -->
+                    <img src="Images/ImageName.JPG" class = "rounded img-thumbnail" alt="Picture of some food">
+                </div>
+            </div>
 
-        <h2>Sections should be in H2 format, and follow this order:</h2>
-        <h2>Important Details:</h2>
+            <!-- Recipe Content -->
+            <div class = "row mx-3 my-3">
+                <!-- Recipe Details -->
+                <div class = "col-md-6">
 
-            <!-- Place information about allergens, vegan/vegetarian compatibility and/or 
-                cultural/religious notices: (for example: contains pork) here. 
-                Some examples have been listed below: -->
+                    <!-- Main Details -->
+                    <div class = "row">
+                        <div class = "col">
+                            <h2>Details:</h2>
+                            <ul>
+                                <!-- Here's where you fill in the timing details + serving details of your recipe -->
+                                <li>Preparation time: <b>5 min</b></li>
+                                <li>Cooking time: <b>~5 min</b></li>
+                                <li>Servings: <b>Serves 1</b></li>
+                            </ul>
+                        </div>
+                    </div>
 
-            <ul>
-                <li>Vegan/Vegetarian: <b>Neither/Vegan/Vegetarian</b></li>
-                <li>Potential Allergens: <b>Nuts/Milk/Dairy/etc</b></li>
-                <li>Kosher: <b>Yes/No</b></li>
-            </ul>
-        </ul>
+                    <!-- Dietary Details -->
+                    <div class = "row my-2">
+                        <div class = "col-md">
+                            <h2>Dietary Details:</h2>
+                            <ul>
+                                <!-- This is where all those dietary details go!
+                                You should only change what is necessary ... if there are other dietary details
+                                that you would like to add, simply stick it between the <li> and </li> tags as 
+                                seen below -->
+                                <li>Vegan/Vegetarian: <b>Vegetarian</b></li>
+                                <li>Potential Allergens: <b>Egg</b></li>
+                                <li>Gluten-free: <b>Yes</b></li>
+                            </ul>
+                        </div>
+                    </div>
 
-        <h2>Ingredients</h2>
-            <!-- Pretty self-explanatory; list ingredients here. They should be unordered (<ul>).
-                For consistency's sake, aim to use the following abbreviations where possible:
-                
-                tablespoon(s) -> tbsp.
-                teaspoon(s) -> tsp.
-                pound(s) -> lb(s).
-                ounce(s) -> oz.
-                gram(s) -> g
+                    <!-- Ingredients -->
+                    <div class = "row my-2">
+                        <div class = "col-md">
+                            <h2>Ingredients</h2>
+                                <ul>
+                                    <!-- Behold! The ingredients section. To add more ingredients, simply put the
+                                    ingredient in a new line sandwiched between <li> and </li> tags as seen below -->
+                                    <li>3 eggs</li>
+                                    <li>1 tsp. sunflower oil <b>OR</b> 1 tsp. butter</li>
+                                    <li>A lot of love</li>
+                                    <li>A healthy serving of ice cream</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
 
-                For denominations such as size (i.e. large, )
-                Write fractions in the format &fracxy, where x is the numerator and y the denominator.
-                for example, 1/2 would be %frac12 - this is a nice way of formatting things and visual
-                consistency is always a good thing. 
-                
-                Optional ingredients can be simply stated with (optional).-->
-            <ul>
-                <li>Pasta, 2 tbsps.</li>
+                <!-- Recipe Directions -->
+                <div class = "col-md-6">
+                    <h2>Directions</h2>
+                        <ol>
+                            <!-- Now here comes the directions ... this part is a tad bit tricky but you should have
+                            the hang of this whole list thing by now. In case you don't do some research or ask for help!
+                            If your instructions are a lot longer than ours, feel free to add more list items to expand this -->
+                            <li>Eat some ice cream</li>
+                            <li>Decide to stop procrastinating on your other work</li>
+                            <ul>
+                                <li>If unable to do so, continue to eat more ice cream</li>
+                            </ul>
+                            <li>Make an omelette</li>
+                        </ol>
+                </div>
+            </div>
 
-                <li>&frac12 a tankard of oregano</li> 
+            <hr> 
 
-                <li>One i̼̖̦͕͚̖͍̪ͥ͢i͔̦̩̙ͩ̾͟j̺̻͇͙̺̖͚̟͆̀ͩ͡q̥͕̐̽̐̔̀ŕ̢̪̻̳̹̰̳̠̠g͔̖̣̙̱̮̜̎̋͢i̮̻̜̪̪͗̏͗͜j̴͚̭͚͙͔͖̟̽u͛̿̈́̃҉̬̟̙̣a̻̟̰̜̦̘̚͜b̸͚͙̥̱͖̝̲̃̐̇̈n̲̗͖̦̣͖͔̠͒́f͖̭̼̘͔͛ͣ̒͊̕v̖̻̗̟͔͖̲̞̄̒̏̕u̦̙̱̗̙͒ͬ͝ͅî͈̼ͬ͑ͮ̀j̡͈͉͖̟̳̲̯̖ͮh̃̃͏̬̮̣̫ṇ̢̹̥ͧ̾̂ of Octogarf (optional)</li>
-            </ul>
-        <h2>Directions</h2>
-            <!-- -->
-            <ol>
-                <li>Create lasanga using the pasta and oregano.<sub><a href="#reference1">1</a></sub></li>
-                <!-- This is an example of referring to another part of the page using the # sign, as mentioned in the 'References' section. -->
-                <li>Lie self upon sacrifical altar at 9am on a Monday for maximum efficacy.</li>
+            <!-- Other Details -->
+            <div class = "row mx-3 my-2">
 
-                <li>B̗̖̣̝͔̜̝͆́ͅĒ̻̮̍̂̕Cͨ̎̾ͪ͏̟̹̯͍͉͇͍͎O̴̥̟͂̉M̪̝̒̏̍̇̀ͅȨ̥͇̎͋̉ ̧̼̞͉̞͚̭ͫ͊͆͗O̎҉̤͇̙̺͈͙͕̣N̸͎̮̘̟̣͎̲ͥ͂̊E̴̗̦̯͉̩̅ ͓̥̥̆̚͜W͓̠͉̥̲̼̭͋̇̃͡I̛̯̺ͦT̖̦̗͇͉̥̣͓̈́͛̌̕H̝̻͚̣̅̂͠ ̨̤̟̳͉̠ͬÖ̵͚̜́̊C̵̞̘̘͍͉̹̫͒ͧ͗̋Ṭ̶̲̤͙̬ͫ̍͊O͚̼̊̔̀G͕̯̗̋̍͒̎̀Å̤̟̹̙̗͍ͧ͢R͓͔̭͈̐͋͗̀͝F͈̬̥̺̻̰͖̓͌͝</li>
-            </ol>
-        <h2>References</h2>
-            
-            <p>If you've referred to/transcribed any resources from other websites/creators/etc, cite them here under the following format in order of use:</p>
-            <!-- You CAN forgo this section in favor of simply using <a> on text in the recipe itself, 
-                but doing it this way appears neat and allows readers to easily collate information. 
-                If you do it this way, make sure to use the <sub> tag to number your references in subscript where they occur.
+                <!-- References -->
+                <div class = "col-md-6">
+                    <h2>References</h2>
+                        <ol>
+                            <!-- We're almost done! Heres an optional section for references, all you need to do is change up
+                            the text and replace the links in href = "#" with an actual link instead of a '#'-->
+                            <li><a href="#">This is a reference</a></li>
+                            <li><a href="#">This is also a reference</a></li>
+                        </ol>
+                </div>
 
-                When numbering your references, you can also use the <a> tag on the number itself to refer to
-                another part of the HTML document itself - to do it here, simply use the 'id' tag on part of 
-                your reference and use #<id> in an <a> section linked to the subscripted number. An example has been mentioned in the
-                'Directions' section above, and the below reference is given the id 'reference1'. -->
-            <ol>
-                <li><a href="https://www.bbcgoodfood.com/recipes/lasagne" id="reference1">Lasanga recipe - BBC Good Food</a></li>
-            </ol>
-        
-        <h2>Contributors</h2>
-            <p>Here, we list contributors to the writing of this document. It's optional, but some of you might want to credit yourselves or others.</p>
-            <ul>
-                <li>Written by Octogarf</li>
-                <li>Original recipe by BBC Good Food.</li>
-            </ul>
+                <!-- Contributors -->
+                <div class = "col-md-6">
+                    <h2>Contributors</h2>
+                        <ul>
+                            <!-- And here we are at the finish line, just pop your name in here-->
+                            <li>Written by ME</li>
+                            <li>Recipe by SOME CHEF used as reference, along with some personal experience.</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- DO NOT TOUCH -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="Javascript.js"></script>
     </body>
 </html>
