@@ -21,7 +21,7 @@ If you're not technically inclined, you can still contribute by writing your rec
 
 ### How do I use this?
 
-The easiest way to access this is through our *github pages* website: https://cooking.devsoc.dev, where you can navigate through the recipes people have contributed as you would any other website.
+The easiest way to access this is through our *github pages* website: https://devsoc.co.uk/ntu-cookbook/, where you can navigate through the recipes people have contributed as you would any other website.
 
 If you'd like to keep these websites locally accessible, you have a few options; A webpage can be printed by pressing *CTRL+P* on your browser, or you can download the individual recipes by clicking the *Download ZIP* option in the github repository, like so;
 
