@@ -11,8 +11,8 @@
 
 /* Custom background */
 body {
-    background-image: url("../Assets/BG.png");
-    background-repeat:repeat;
+    background-image: url("../Assets/BG.gif");
+    background-size:cover;
 }
 
 .content {
