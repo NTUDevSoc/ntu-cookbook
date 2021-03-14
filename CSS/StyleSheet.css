@@ -8,3 +8,20 @@
     color: white;
     text-decoration: none;
 }
+
+/* Custom background */
+body {
+    background-image: url("../Assets/BG.png");
+    background-repeat:repeat;
+}
+
+.content {
+    background-color: rgb(241, 240, 240);
+    padding: 20px;
+    box-shadow: 5px 5px 5px #5f5f5f;
+}
+
+/* Remove padding from images */
+.img-thumbnail {
+    padding: 0;
+}
