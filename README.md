@@ -5,13 +5,13 @@ The purpose of this project and repo is to compile various cooking recipes, meth
 
 ### Interested in Contributing?
 
-If you're using github, make sure to check ![CONTRIBUTING.md](https://github.com/NTUDevSoc/ntu-cookbook/blob/main/CONTRIBUTING.md).
+If you're using github, make sure to check [**CONTRIBUTING.md**](https://github.com/NTUDevSoc/ntu-cookbook/blob/main/CONTRIBUTING.md).
 
 If you're not technically inclined, you can still contribute by writing your recipe into a form at `PUT FORM DOMAIN HERE` - we will be able to take it from there and implement it into the site.
 
 ### How do I use this?
 
-The easiest way to access this is through our *github pages* website: https://devsoc.co.uk/ntu-cookbook/, where you can navigate through the recipes people have contributed as you would any other website.
+The easiest way to access this is through our *github pages* website: **https://devsoc.co.uk/ntu-cookbook/**, where you can navigate through the recipes people have contributed as you would any other website.
 
 If you'd like to keep these websites locally accessible, you have a few options; A webpage can be printed by pressing *CTRL+P* on your browser, or you can download the individual recipes by clicking the *Download ZIP* option in the github repository, like so;
 
