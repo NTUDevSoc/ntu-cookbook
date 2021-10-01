@@ -1,6 +1,28 @@
-/* Navbar */
+/* Customise the Navigation Bar */
 .navbar-title {
     font-size: 30px;
+}
+
+.navbar a {
+    color:white;
+    float: left;
+    display: block;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Signika', sans-serif;
+}
+
+.navbar a:hover {
+    color:#b7bdc6 ;
+}
+
+.dropdown-menu {
+    background-color: #181818;
+}
+
+.dropdown-menu a:hover{
+    background-color: #181818;
 }
 
 /* Primarily for index page buttons */
@@ -24,4 +46,17 @@ body {
 /* Remove padding from images */
 .img-thumbnail {
     padding: 0;
+}
+
+/* Socials */
+.socials {
+    color:#ffffff;
+    margin: 6px;
+    text-align: center;
+}
+
+.socials:hover {
+    text-decoration: none;
+    transform: scale(1.15);
+    color:#707070;
 }

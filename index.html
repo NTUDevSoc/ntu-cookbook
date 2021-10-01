@@ -12,7 +12,7 @@
         <!-- Icons -->
         <script src="https://kit.fontawesome.com/f7a97ee3aa.js" crossorigin="anonymous"></script>
 
-         <!-- Website Favicon -->
+        <!-- Website Favicon -->
         <link rel = "shortcut icon" type = "image/png" href = "Assets/Logo.png">
 
         <!-- Logo Font -->
@@ -24,11 +24,36 @@
 
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm">
+            <!-- Brand -->
             <a class="navbar-brand" href="index.html">
                 <img src="Assets/Logo.png" width="50" height="50" class="d-inline-block" alt="">
                 <b class = navbar-title>NTU Cookbook</b>
             </a>
+        
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="navbar-toggler-icon">
+                <i class="fa fa-bars" style="color:#fff; font-size:28px;"></i>
+            </span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class = "navbar-nav ml-auto">
+                    <!-- Page -->
+                    <li class="nav-item">
+                    <a class="nav-link" href="http://devsoc.co.uk/"><i class="fa fa-fw fa-home" style="color:#fff"></i> DevSoc Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://discord.gg/SkF6y4zYH3"><i class="fa fa-fw fa-user-friends" style="color:#fff"></i> Join</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="mailto:devsoc@ntu.ac.uk"><i class="fa fa-fw fa-envelope" style="color:#fff"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
         <!-- Content -->
@@ -67,7 +92,19 @@
                     <button type = "button" class = "btn btn-dark mx-2 my-2"><a href = "#">Recipe</a></button>
                 </div>
             </div>
+        
             
+        </div>
+
+        <!-- Footer -->
+        <h5 class = "text-center mt-2" style="color:#fff">Find us elsewhere:</h5>
+        <div class = "row mb-4 justify-content-center">
+            <a href = "https://github.com/NTUDevSoc" target = "_blank" class="fab fa-fw fa-github fa-2x socials"></a>
+            <a href = "https://www.linkedin.com/groups/8860819/" target = "_blank" class="fa fa-fw fa-linkedin fa-2x socials"></a>
+            <a href = "https://www.facebook.com/ntudevsoc" target = "_blank" class="fab fa-fw fa-facebook-square fa-2x socials"></a>
+            <a href = "https://www.instagram.com/ntudevsoc/" target = "_blank" class="fab fa-fw fa-instagram fa-2x socials"></a>
+            <a href = "https://twitter.com/DevSoc" target = "_blank" class="fab fa-fw fa-twitter fa-2x socials"></a>
+            <a href = "https://discord.gg/JrPpeWQ" target = "_blank" class="fab fa-fw fa-discord fa-2x socials"></a>
         </div>
 
         <!-- DO NOT TOUCH -->
